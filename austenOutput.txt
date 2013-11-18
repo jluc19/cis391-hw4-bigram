@@ -1,0 +1,152 @@
+Unigram
+she
+	Count: 1351 Freq: 0.011294
+
+
+Mr
+	Count: 685 Freq: 0.005726
+
+
+herself
+	Count: 191 Freq: 0.001597
+
+
+sister
+	Count: 154 Freq: 0.001287
+
+
+lady
+	Count: 154 Freq: 0.001287
+
+
+manner
+	Count: 86 Freq: 0.000719
+
+
+cried
+	Count: 80 Freq: 0.000669
+
+
+feelings
+	Count: 72 Freq: 0.000602
+
+
+pride
+	Count: 47 Freq: 0.000393
+
+
+great
+	Count: 121 Freq: 0.001012
+
+
+family
+	Count: 121 Freq: 0.001012
+
+
+home
+	Count: 54 Freq: 0.000451
+
+
+character
+	Count: 54 Freq: 0.000451
+
+
+letter
+	Count: 79 Freq: 0.000660
+
+
+happiness
+	Count: 52 Freq: 0.000435
+
+
+party
+	Count: 50 Freq: 0.000418
+
+
+means
+	Count: 47 Freq: 0.000393
+
+
+acquaintance
+	Count: 45 Freq: 0.000376
+
+
+woman
+	Count: 44 Freq: 0.000368
+
+Bigram
+and she
+	Count: 75 Freq: 0.000627
+
+
+and Mr
+	Count: 0 Freq: 0.000000
+
+
+and herself
+	Count: 10 Freq: 0.000084
+
+
+and sister
+	Count: 3 Freq: 0.000025
+
+
+and lady
+	Count: 8 Freq: 0.000067
+
+
+and manner
+	Count: 3 Freq: 0.000025
+
+
+and cried
+	Count: 0 Freq: 0.000000
+
+
+and feelings
+	Count: 1 Freq: 0.000008
+
+
+and pride
+	Count: 4 Freq: 0.000033
+
+
+and great
+	Count: 0 Freq: 0.000000
+
+
+and family
+	Count: 0 Freq: 0.000000
+
+
+and home
+	Count: 0 Freq: 0.000000
+
+
+and character
+	Count: 0 Freq: 0.000000
+
+
+and letter
+	Count: 0 Freq: 0.000000
+
+
+and happiness
+	Count: 4 Freq: 0.000033
+
+
+and party
+	Count: 0 Freq: 0.000000
+
+
+and means
+	Count: 0 Freq: 0.000000
+
+
+and acquaintance
+	Count: 0 Freq: 0.000000
+
+
+and woman
+	Count: 0 Freq: 0.000000
+
