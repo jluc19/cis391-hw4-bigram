@@ -1,40 +1,4 @@
 2. Unigram Sequences
-['.', 'to', ',', 'the', 'her', 'had', "''", 'for', 'with', 'and', 'of', 'as', 'was', 'not', 'a', 'that', "'s", '``', ';', 'you']
+['.', 'her', ',', 'the', 'to', 'much', "''", 'how', 'of', 'a', 'and', 'had', 'was', 'not', 'for', 'with', 'in', 'as', 'that', 'be']
 5. Bigram Sequences
-['she', 'could', 'not', 'know', 'the', 'whole', 'of', 'the', 'family', '.', "''"]
-
-['mr', '.', "''", 'said', 'no', ',', 'and', 'the', 'whole', 'of', 'the']
-
-['herself', '.', "''", 'said', 'mrs', '.', 'bingley', "'s", 'meditated', 'a', 'glimpse']
-
-['sister', ',', 'and', 'the', 'whole', 'of', 'the', 'room', ',', 'gentlemanlike', 'man']
-
-['lady', 'catherine', ',', 'and', 'the', 'family', '.', 'bingley', 'was', 'to', 'mrs']
-
-['manner', 'of', 'the', 'whole', 'of', 'her', 'family', '.', "''", 'said', ',']
-
-['cried', 'elizabeth', 'with', 'the', 'park', ',', '``', 'i', 'am', 'sure', ',']
-
-['feelings', 'decided', 'indeed', ',', 'and', 'the', 'lady', 'catherine', "'s", 'meditated', 'a']
-
-['pride', 'and', 'he', 'was', 'not', 'but', 'i', 'am', 'not', 'be', 'the']
-
-['great', 'deal', 'of', 'the', 'subject', ',', 'and', 'the', 'family', '.', 'i']
-
-['family', '.', 'bingley', 'was', 'not', 'be', 'too', 'full', 'ten', 'minutes', ',']
-
-['home', '.', "''", 'she', ',', 'and', 'he', 'said', ',', 'or', 'three']
-
-['character', 'of', 'the', 'whole', '.', "''", 'said', ',', 'and', 'the', 'family']
-
-['letter', ',', 'and', 'he', 'was', 'a', 'fortnight', '.', "''", 'cried', 'elizabeth']
-
-['happiness', 'of', 'the', 'subject', ',', 'and', 'the', 'whole', 'of', 'all', 'the']
-
-['party', ',', 'and', 'the', 'family', '.', 'bingley', 'was', 'to', 'be', 'the']
-
-['means', 'of', 'the', 'subject', ',', 'for', 'her', ',', 'and', 'he', 'had']
-
-['acquaintance', ',', 'and', 'he', 'was', 'not', 'be', 'too', 'much', 'as', 'to']
-
-['woman', '.', "''", 'said', 'mrs', '.', 'i', 'am', 'sure', 'we', 'can']
+['great', 'deal', 'of', 'all', 'that', 'she', 'could', 'not', 'be', 'in', 'the']
