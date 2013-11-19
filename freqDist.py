@@ -54,16 +54,17 @@ def generateUnigramSeq(fdist, length):
 		freq = fdist.freq(key)
 		if freq > max:
 			max = freq 
-	print "Max: ", max
+	#print "Max: ", max
 	while len(ugram) < length:
 		i = random.uniform(0,max)
 		for key in keys:
 			if fdist.freq(key) > i and key is not '':
-				print key
+				#print key
 				ugram.append(key)
 				keys.remove(key)
 				break
-	print "Ugram: ", ugram
+	#print "Ugram: ", ugram
+	print "Unigram Complete", ugram
 	return ugram
 
 class BiFreqDist(object):
@@ -101,56 +102,68 @@ class CondFreqDist(object):
 def generateBigramSeq(cfdist, length, first):
 	bigram = []
 	keys = cfdist.bdict.dict.keys()
-	firstUGram = [first] # generateUnigramSeq(cfdist.udict, 1)
-	print "FIRSTUGRAM", firstUGram[0]
+	#print cfdist.udict.dict
+	#print "MRMRMRMRMR", cfdist.udict.dict.get("Mr",0)
+	firstUGram = [first.lower()] # generateUnigramSeq(cfdist.udict, 1)
+	#print "FIRSTUGRAM", firstUGram[0]
 	bigram.append(firstUGram[0])
 	for a in xrange(0,length):
 		max = 0
 		for (word1,word2) in keys:
-			if word1 == 'temptations':
-				print "TEMPTATIONS!", word1, word2
+			#if word1 == 'temptations':
+				#print "TEMPTATIONS!", word1, word2
 		#	print word2, bigram[a]
 			if word1 == bigram[a]:
 				#print "Freq: ", cfdist.freq(word1,word2), bigram[a], word1, word2
 				freq = cfdist.freq(word1,word2)
 				if freq > max:
 					max = freq
-		print "THE MAX: ", max
+		#print "THE MAX: ", max
 		j =0
-		print "LEN: ", a, len(bigram)
+		#print "LEN: ", a, len(bigram)
 		while(len(bigram)-1 == a and j < 3):
 			i = random.uniform(0,max)
 			for (word1,word2) in keys:
-				print "Word2 ", word2, "Freq: ", cfdist.freq(word1,word2)
-				if word2 == bigram[a] and cfdist.freq(word1,word2) >= i:
-					bigram.append(word1)
-					print "LEN: ", a, len(bigram)
-					print "ADDED WORD ", word1
-					print "Bigram Prob ", i, cfdist.freq(word1,word2)
+				#if word1 == bigram[a]:
+					#print "Word2 ", word2, "Freq: ", cfdist.freq(word1,word2), "I: ", i
+				if word1 == bigram[a] and cfdist.freq(word1,word2) >= i:
+					bigram.append(word2)
+					#print "LEN: ", a, len(bigram)
+					#print "ADDED WORD ", word2
+					#print "Bigram Prob ", i, cfdist.freq(word1,word2)
 					keys.remove((word1,word2))
 					break
 			j = j+1
-			print "Bigram: ", bigram, "I: ", i, "Max: ", max, 
-	#print "THIS IS WRONG"
+	print "Bigram Complete: ", bigram 
+	return bigram
 if __name__ == '__main__':
 	cfdist = CondFreqDist("austen.token")
 	outputs = ["she","Mr","herself","sister","lady","manner","cried","feelings","pride","great","family","home","character","letter","happiness","party","means","acquaintance","woman"]
 	generateUnigramSeq(cfdist.udict, 20)
 	fo = open("austenCounts.txt","w")
-	fo.write("Unigram")
+	print "\n1b. FreqDist of Words"
+	fo.write("1b. FreqDist of Words")
 	for uitem in outputs:
+		print uitem, "Count: ", cfdist.udict.count(uitem), "Freq: ", cfdist.udict.freq(uitem)
 		fo.write('\n%s\n\t%s%d %s%f\n\n' % (uitem, "Count: ", cfdist.udict.count(uitem), "Freq: ", cfdist.udict.freq(uitem)))
-	fo.write("Bigram")
+	print "\n3. Bigram Probabilities"
+	fo.write("3. Bigram Probabilities")
 	prev = "and"
 	for bitem in outputs:
+		print prev+" "+bitem, "Count: ", cfdist.bdict.count(prev,bitem), "Freq: ", cfdist.bdict.freq("and", bitem)
 		fo.write('\n%s\n\t%s%d %s%f\n\n' % (prev+" "+bitem, "Count: ", cfdist.bdict.count(prev, bitem), "Freq: ", cfdist.bdict.freq(prev, bitem)))
+	print "\n4. Conditional Probabilities"
+	fo.write("4. Conditional Probabilities")
+	for cfitem in outputs:
+		print prev+" "+cfitem, "Count: ", cfdist.count(prev,cfitem), "Freq: ", cfdist.freq("and", cfitem)
+		fo.write('\n%s\n\t%s%d %s%f\n\n' % (prev+" "+cfitem, "Count: ", cfdist.count(prev, cfitem), "Freq: ", cfdist.freq(prev, cfitem)))
 	fo.close()
 	fo = open("austenNGrams.txt","w")
-	fo.write("Unigram")
+	print "\n2. Unigram Sequences"
+	fo.write("2. Unigram Sequences")
+	fo.write("\n%s\n" % generateUnigramSeq(cfdist.udict, 20))
+	print "\n5. Bigram Sequences"
+	fo.write("5. Bigram Sequences")
 	for cfitem in outputs:
-		#print cfdist.freq("and", cfitem)
-		fo.write('\n%s\n\t%s%d %s%f\n\n' % (prev+" "+cfitem, "Count: ", cfdist.count(prev, cfitem), "Freq: ", cfdist.freq(prev, cfitem)))
-	fo.write("Bigram")
-	for cfitem in outputs:
-		fo.write("\n%s\n" % generateBigramSeq(cfdist, 20, cfitem))
+		fo.write("\n%s\n" % generateBigramSeq(cfdist, 10, cfitem))
 	fo.close()

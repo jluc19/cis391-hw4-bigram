@@ -1,4 +1,4 @@
-Unigram
+1b. FreqDist of Words
 she
 	Count: 1351 Freq: 0.011294
 
@@ -74,7 +74,7 @@ acquaintance
 woman
 	Count: 44 Freq: 0.000368
 
-Bigram
+3. Bigram Probabilities
 and she
 	Count: 75 Freq: 0.000627
 
@@ -133,6 +133,82 @@ and letter
 
 and happiness
 	Count: 4 Freq: 0.000033
+
+
+and party
+	Count: 0 Freq: 0.000000
+
+
+and means
+	Count: 0 Freq: 0.000000
+
+
+and acquaintance
+	Count: 0 Freq: 0.000000
+
+
+and woman
+	Count: 0 Freq: 0.000000
+
+4. Conditional Probabilities
+and she
+	Count: 75 Freq: 0.025134
+
+
+and Mr
+	Count: 0 Freq: 0.000000
+
+
+and herself
+	Count: 10 Freq: 0.003351
+
+
+and sister
+	Count: 3 Freq: 0.001005
+
+
+and lady
+	Count: 8 Freq: 0.002681
+
+
+and manner
+	Count: 3 Freq: 0.001005
+
+
+and cried
+	Count: 0 Freq: 0.000000
+
+
+and feelings
+	Count: 1 Freq: 0.000335
+
+
+and pride
+	Count: 4 Freq: 0.001340
+
+
+and great
+	Count: 0 Freq: 0.000000
+
+
+and family
+	Count: 0 Freq: 0.000000
+
+
+and home
+	Count: 0 Freq: 0.000000
+
+
+and character
+	Count: 0 Freq: 0.000000
+
+
+and letter
+	Count: 0 Freq: 0.000000
+
+
+and happiness
+	Count: 4 Freq: 0.001340
 
 
 and party

@@ -1,77 +1,40 @@
-Unigram
-and she
-	Count: 75 Freq: 0.025134
+2. Unigram Sequences
+['.', 'to', ',', 'the', 'her', 'had', "''", 'for', 'with', 'and', 'of', 'as', 'was', 'not', 'a', 'that', "'s", '``', ';', 'you']
+5. Bigram Sequences
+['she', 'could', 'not', 'know', 'the', 'whole', 'of', 'the', 'family', '.', "''"]
 
+['mr', '.', "''", 'said', 'no', ',', 'and', 'the', 'whole', 'of', 'the']
 
-and Mr
-	Count: 0 Freq: 0.000000
+['herself', '.', "''", 'said', 'mrs', '.', 'bingley', "'s", 'meditated', 'a', 'glimpse']
 
+['sister', ',', 'and', 'the', 'whole', 'of', 'the', 'room', ',', 'gentlemanlike', 'man']
 
-and herself
-	Count: 10 Freq: 0.003351
+['lady', 'catherine', ',', 'and', 'the', 'family', '.', 'bingley', 'was', 'to', 'mrs']
 
+['manner', 'of', 'the', 'whole', 'of', 'her', 'family', '.', "''", 'said', ',']
 
-and sister
-	Count: 3 Freq: 0.001005
+['cried', 'elizabeth', 'with', 'the', 'park', ',', '``', 'i', 'am', 'sure', ',']
 
+['feelings', 'decided', 'indeed', ',', 'and', 'the', 'lady', 'catherine', "'s", 'meditated', 'a']
 
-and lady
-	Count: 8 Freq: 0.002681
+['pride', 'and', 'he', 'was', 'not', 'but', 'i', 'am', 'not', 'be', 'the']
 
+['great', 'deal', 'of', 'the', 'subject', ',', 'and', 'the', 'family', '.', 'i']
 
-and manner
-	Count: 3 Freq: 0.001005
+['family', '.', 'bingley', 'was', 'not', 'be', 'too', 'full', 'ten', 'minutes', ',']
 
+['home', '.', "''", 'she', ',', 'and', 'he', 'said', ',', 'or', 'three']
 
-and cried
-	Count: 0 Freq: 0.000000
+['character', 'of', 'the', 'whole', '.', "''", 'said', ',', 'and', 'the', 'family']
 
+['letter', ',', 'and', 'he', 'was', 'a', 'fortnight', '.', "''", 'cried', 'elizabeth']
 
-and feelings
-	Count: 1 Freq: 0.000335
+['happiness', 'of', 'the', 'subject', ',', 'and', 'the', 'whole', 'of', 'all', 'the']
 
+['party', ',', 'and', 'the', 'family', '.', 'bingley', 'was', 'to', 'be', 'the']
 
-and pride
-	Count: 4 Freq: 0.001340
+['means', 'of', 'the', 'subject', ',', 'for', 'her', ',', 'and', 'he', 'had']
 
+['acquaintance', ',', 'and', 'he', 'was', 'not', 'be', 'too', 'much', 'as', 'to']
 
-and great
-	Count: 0 Freq: 0.000000
-
-
-and family
-	Count: 0 Freq: 0.000000
-
-
-and home
-	Count: 0 Freq: 0.000000
-
-
-and character
-	Count: 0 Freq: 0.000000
-
-
-and letter
-	Count: 0 Freq: 0.000000
-
-
-and happiness
-	Count: 4 Freq: 0.001340
-
-
-and party
-	Count: 0 Freq: 0.000000
-
-
-and means
-	Count: 0 Freq: 0.000000
-
-
-and acquaintance
-	Count: 0 Freq: 0.000000
-
-
-and woman
-	Count: 0 Freq: 0.000000
-
-Bigram
+['woman', '.', "''", 'said', 'mrs', '.', 'i', 'am', 'sure', 'we', 'can']
