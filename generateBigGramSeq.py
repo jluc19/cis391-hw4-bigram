@@ -5,14 +5,14 @@ def generateBigramSeq(cfdist, length, first):
 	bigram = []
 	keys = cfdist.bdict.dict.keys()
 	bigram.append(first.lower())
-	for a in xrange(0,length-1):
-		while(len(bigram)-1 == a):
+	for a in xrange(1,length):
+		while(len(bigram) == a):
 			r = random.random()
 			i = 0
 			for (word1,word2) in keys:
 				#print "Word1 ", word1,"Word2 ", word2, "Freq: ", cfdist.freq(word1,word2), "I: ", i
 				#print "A: ", a, bigram
-				if word1 == bigram[a]:
+				if word1 == bigram[a-1]:
 					i = i + cfdist.freq(word1,word2)
 					if i > r:
 						bigram.append(word2)

@@ -1,38 +1,38 @@
 5. Bigram Sequences
-['she', 'comes', 'back', 'and', 'so', 'selfish', ',', 'should', 'be', 'no']
+['she', 'had', 'built', 'on', 'your', 'son', 'of', 'anybody', 'else', '.']
 
-['mr', '.', 'upon', 'my', 'suit', 'her', '.', 'denny', ',', 'on']
+['mr', '.', 'i', 'must', 'very', 'glad', 'to', 'consider', 'his', 'assistance']
 
-['herself', 'perfectly', 'false', ',', "''", 'he', 'has', 'related', ',', 'mr']
+['herself', '.', 'i', 'am', 'going', 'there', 'was', 'peevish', '.', 'how']
 
-['sister', '.', 'let', 'me', ',', 'you', 'certainly', 'spare', 'them', 'word']
+['sister', ';', 'he', 'expect', 'me', 'before', 'the', 'probability', 'of', 'the']
 
-['lady', 'catherine', 'and', 'others', '.', 'such', 'was', 'persuaded', 'of', 'them']
+['lady', 'lucas', '.', 'the', 'follies', 'and', 'to', 'elizabeth', 'was', 'only']
 
-['manner', 'nor', 'of', 'the', 'absence', 'before', 'they', 'had', 'scarcely', 'less']
+['manner', 'said', 'no', 'country', 'before', 'elizabeth', ',', 'however', ',', "''"]
 
-['cried', ',', 'and', 'then', 'they', 'had', 'time', 'disposed', 'to', 'confess']
+['cried', 'elizabeth', 'could', 'do', 'the', 'truth', 'is', 'beautiful', 'eyes', 'on']
 
-['feelings', 'and', 'looked', 'at', 'being', 'able', 'to', 'tell', 'her', 'return']
+['feelings', 'or', 'sixteen', ',', 'make', 'him', 'after', 'sitting', 'with', 'alternate']
 
-['pride', 'are', 'uniformly', 'betrayed', 'him', 'no', 'knowing', 'it', 'is', 'far']
+['pride', 'and', 'had', 'seen', 'him', ',', 'was', 'exactly', 'as', 'all']
 
-['great', 'connections', '.', 'perhaps', 'misrepresented', 'each', 'other', 'things', 'said', 'she']
+['great', 'exultation', 'that', 'the', 'subject', 'was', 'by', 'her', 'appear', 'to']
 
-['family', ',', 'and', ',', 'including', 'but', 'she', 'had', 'been', 'deceived']
+['family', 'portraits', ',', 'she', 'dared', 'to', 'his', 'misfortunes', 'have', 'other']
 
-['home', ',', 'till', 'i', 'assure', 'you', 'have', 'a', 'little', 'besides']
+['home', ',', 'and', 'without', 'any', 'more', 'suffer', 'him', ',', 'that']
 
-['character', '.', 'i', 'had', 'spent', 'six', 'officers', ',', 'it', 'seemed']
+['character', 'and', 'though', 'it', 'must', 'be', 'my', 'love', '?', 'mr']
 
-['letter', 'was', 'overflowing', 'with', 'him', '.', "''", 'said', 'she', 'cried']
+['letter', 'arrived', 'from', 'her', 'staying', 'in', 'want', 'you', 'in', 'a']
 
-['happiness', ';', 'but', 'well', ',', 'looking', 'out', 'as', 'to', 'me']
+['happiness', 'were', 'uneasy', ',', 'elizabeth', "'s", 'being', 'so', 'much', 'to']
 
-['party', 'in', 'every', 'power', 'to', 'rosings', ',', 'you', 'do', 'justice']
+['party', 'were', 'broken', 'off', 'her', 'ladyship', "'s", 'contempt', 'seemed', 'quite']
 
-['means', 'of', 'you', 'what', 'is', 'always', 'occupies', 'you', 'deny', 'the']
+['means', 'unpleasing', ',', 'alas', '!', 'how', 'i', 'will', 'receive', 'comfort']
 
-['acquaintance', 'with', 'a', 'most', 'wish', 'with', 'jane', ',', 'smilingly', ',']
+['acquaintance', ',', 'no', 'good', 'opinion', 'on', 'which', 'there', 'is', 'just']
 
-['woman', 'without', 'any', 'intention', ',', "''", 'replied', 'elizabeth', ',', 'as']
+['woman', '.', 'and', 'clapham', '.', 'collins', ';', 'and', 'lydia', 'or']
