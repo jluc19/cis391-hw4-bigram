@@ -80,7 +80,7 @@ and she
 
 
 and Mr
-	Count: 0 Freq: 0.000000
+	Count: 33 Freq: 0.000276
 
 
 and herself
@@ -156,7 +156,7 @@ and she
 
 
 and Mr
-	Count: 0 Freq: 0.000000
+	Count: 33 Freq: 0.011059
 
 
 and herself

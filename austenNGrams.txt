@@ -1,4 +1,40 @@
 2. Unigram Sequences
-['.', 'her', ',', 'the', 'to', 'much', "''", 'how', 'of', 'a', 'and', 'had', 'was', 'not', 'for', 'with', 'in', 'as', 'that', 'be']
+[',', 'someone', 'for', 'talking', 'could', 'to', 'in', 'by', '``', 'the', 'aloud', 'impression', 'account', 'more', 'at', '.', 'are', 'on', 'take', 'it']
 5. Bigram Sequences
-['great', 'deal', 'of', 'all', 'that', 'she', 'could', 'not', 'be', 'in', 'the']
+['she', 'had', 'left', 'netherfield', ',', 'and', 'she', 'believed', 'him', 'on', 'her']
+
+['mr', '.', 'she', 'had', 'been', 'a', 'daughter', ';', 'for', 'bingley', 'preferred']
+
+['herself', 'called', 'out', 'that', 'abominable', '.', "''", 'cried', '.', 'mr', '.']
+
+['sister', '.', 'wickham', ',', 'i', 'believe', 'darcy', 'were', 'come', 'to', 'mr']
+
+['lady', 'catherine', 'very', 'agreeable', 'surprise', 'to', 'walk', 'here', '.', "''", 'said']
+
+['manner', 'in', 'rejecting', 'him', ',', 'and', 'then', 'walked', 'on', 'the', 'longbourn']
+
+['cried', ';', 'and', 'ill-usage', ';', 'but', 'to', 'do', 'you', 'here', 'she']
+
+['feelings', 'are', '!', 'and', 'of', 'you', 'have', 'known', 'as', 'fair', '.']
+
+['pride', ',', 'inaccurate', 'or', 'other', 'things', 'occur', '!', 'but', 'to', 'think']
+
+['great', 'self-denial', 'and', 'therefore', ',', 'and', 'the', 'course', '.', 'it', 'can']
+
+['family', ';', 'and', 'point', 'of', 'his', 'pride', ',', 'of', 'him', ',']
+
+['home', ',', 'and', 'on', 'looking', 'for', 'such', 'gloomy', '.', 'he', 'had']
+
+['character', 'sunk', 'in', 'his', 'aunt', ',', '``', 'do', 'not', 'but', ',']
+
+['letter', 'from', 'vexation', '.', "''", 'replied', 'elizabeth', '.', 'she', 'finished', 'the']
+
+['happiness', '.', 'miss', 'lucas', ',', 'he', 'may', 'say', 'to', 'any', 'could']
+
+['party', 'have', 'done', 'while', 'he', 'considered', 'her', '.', 'let', 'him', 'up']
+
+['means', 'to', 'be', 'overthrown', '.', 'i', 'flatter', 'myself', '.', "''", 'cried']
+
+['acquaintance', 'with', 'no', 'inclination', ',', 'what', ',', 'and', 'all', 'his', 'lady']
+
+['woman', 'indeed', ',', 'when', 'am', 'heartily', '.', 'after', 'my', 'apology', 'to']

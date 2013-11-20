@@ -15,6 +15,7 @@ class FreqDist(object):
 		word = word.lower()
 		return self.dict.get(word,0)
 	def freq(self, word):
+		word = word.lower()
 		if self.total <= 0:
 			return 0
 		else:
@@ -27,8 +28,12 @@ class BiFreqDist(object):
 		self.dict = read(filename, True)
 		self.total = total
 	def count(self, word1, word2):
+		word1 = word1.lower()
+		word2 = word2.lower()
 		return  self.dict.get((word1,word2),0)
 	def freq(self, word1, word2):
+		word1 = word1.lower()
+		word2 = word2.lower()
 		if self.total <= 0:
 			return 0
 		else:
@@ -42,8 +47,12 @@ class CondFreqDist(object):
 		self.bdict = BiFreqDist("austen.token")
 		self.udict = FreqDist("austen.token")
 	def count(self, word1, word2):
+		word1 = word1.lower()
+		word2 = word2.lower()
 		return self.bdict.dict.get((word1,word2),0)
 	def freq(self, word1, word2):
+		word1 = word1.lower()
+		word2 = word2.lower()
 		if(self.bdict.total == 0 or self.udict.dict.get(word1,0) == 0 or self.udict.total == 0):
 			return 0
 		else:
@@ -61,14 +70,12 @@ def generateUnigramSeq(fdist, length):
 	keys = fdist.dict.keys()
 	max = 0
 	#determine the range of values (make sure chosen r is relevant)
-	for key in keys:
-		freq = fdist.freq(key)
-		if freq > max:
-			max = freq
 	while len(ugram) < length:
-		r = random.uniform(0,max)
+		r = random.random()
+		i = 0
 		for key in keys:
-			if fdist.freq(key) > r and key is not '':
+			i = i + fdist.freq(key)
+			if i > r and key is not '':
 				ugram.append(key)
 				keys.remove(key)
 				break
@@ -81,24 +88,22 @@ def generateBigramSeq(cfdist, length, first):
 	keys = cfdist.bdict.dict.keys()
 	bigram.append(first.lower())
 	for a in xrange(0,length):
-		max = 0
-		for (word1,word2) in keys:
-			if word1 == bigram[a]:
-				freq = cfdist.freq(word1,word2)
-				if freq > max:
-					max = freq
 		while(len(bigram)-1 == a):
-			i = random.uniform(0,max)
+			r = random.random()
+			i = 0
 			for (word1,word2) in keys:
-				if word1 == "great":
-					print "Word1 ", word1,"Word2 ", word2, "Freq: ", cfdist.freq(word1,word2), "I: ", i
-				if word1 == bigram[a] and cfdist.freq(word1,word2) >= i:
-					bigram.append(word2)
-					#print "LEN: ", a, len(bigram)
-					#print "ADDED WORD ", word2
-					#print "Bigram Prob ", i, cfdist.freq(word1,word2)
-					keys.remove((word1,word2))
-					break
+		#		if word1 == "great":
+		#			print "Word1 ", word1,"Word2 ", word2, "Freq: ", cfdist.freq(word1,word2), "I: ", i
+				#print "A: ", a, bigram
+				if word1 == bigram[a]:
+					i = i + cfdist.freq(word1,word2)
+					if i > r:
+						bigram.append(word2)
+						#print "LEN: ", a, len(bigram)
+						#print "ADDED WORD ", word2
+						#print "Bigram Prob ", i, cfdist.freq(word1,word2)
+						keys.remove((word1,word2))
+		 				break
 	print "Bigram Complete: ", bigram 
 	return bigram
 
@@ -165,6 +170,6 @@ if __name__ == '__main__':
 	fo.write("\n%s\n" % generateUnigramSeq(cfdist.udict, 20))
 	print "\n5. Bigram Sequences"
 	fo.write("5. Bigram Sequences")
-	#for cfitem in outputs:
-	fo.write("\n%s\n" % generateBigramSeq(cfdist, 10, "great"))
+	for cfitem in outputs:
+		fo.write("\n%s\n" % generateBigramSeq(cfdist, 10, cfitem))
 	fo.close()
