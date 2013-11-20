@@ -1,0 +1,2 @@
+2. Unigram Sequences
+['interest', 'than', 'of', 'it', 'everything', ',', 'seemed', 'or', 'yours', 'may', 'you', 'excellent', 'each', 'either', 'to', 'firmness', 'expose', 'but', 'the', 'him']

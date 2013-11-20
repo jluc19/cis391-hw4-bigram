@@ -1,0 +1,76 @@
+3. Bigram Probabilities
+and she
+	Count: 75 Freq: 0.000627
+
+
+and Mr
+	Count: 33 Freq: 0.000276
+
+
+and herself
+	Count: 10 Freq: 0.000084
+
+
+and sister
+	Count: 3 Freq: 0.000025
+
+
+and lady
+	Count: 8 Freq: 0.000067
+
+
+and manner
+	Count: 3 Freq: 0.000025
+
+
+and cried
+	Count: 0 Freq: 0.000000
+
+
+and feelings
+	Count: 1 Freq: 0.000008
+
+
+and pride
+	Count: 4 Freq: 0.000033
+
+
+and great
+	Count: 0 Freq: 0.000000
+
+
+and family
+	Count: 0 Freq: 0.000000
+
+
+and home
+	Count: 0 Freq: 0.000000
+
+
+and character
+	Count: 0 Freq: 0.000000
+
+
+and letter
+	Count: 0 Freq: 0.000000
+
+
+and happiness
+	Count: 4 Freq: 0.000033
+
+
+and party
+	Count: 0 Freq: 0.000000
+
+
+and means
+	Count: 0 Freq: 0.000000
+
+
+and acquaintance
+	Count: 0 Freq: 0.000000
+
+
+and woman
+	Count: 0 Freq: 0.000000
+

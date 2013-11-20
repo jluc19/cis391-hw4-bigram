@@ -1,0 +1,38 @@
+5. Bigram Sequences
+['she', 'comes', 'back', 'and', 'so', 'selfish', ',', 'should', 'be', 'no']
+
+['mr', '.', 'upon', 'my', 'suit', 'her', '.', 'denny', ',', 'on']
+
+['herself', 'perfectly', 'false', ',', "''", 'he', 'has', 'related', ',', 'mr']
+
+['sister', '.', 'let', 'me', ',', 'you', 'certainly', 'spare', 'them', 'word']
+
+['lady', 'catherine', 'and', 'others', '.', 'such', 'was', 'persuaded', 'of', 'them']
+
+['manner', 'nor', 'of', 'the', 'absence', 'before', 'they', 'had', 'scarcely', 'less']
+
+['cried', ',', 'and', 'then', 'they', 'had', 'time', 'disposed', 'to', 'confess']
+
+['feelings', 'and', 'looked', 'at', 'being', 'able', 'to', 'tell', 'her', 'return']
+
+['pride', 'are', 'uniformly', 'betrayed', 'him', 'no', 'knowing', 'it', 'is', 'far']
+
+['great', 'connections', '.', 'perhaps', 'misrepresented', 'each', 'other', 'things', 'said', 'she']
+
+['family', ',', 'and', ',', 'including', 'but', 'she', 'had', 'been', 'deceived']
+
+['home', ',', 'till', 'i', 'assure', 'you', 'have', 'a', 'little', 'besides']
+
+['character', '.', 'i', 'had', 'spent', 'six', 'officers', ',', 'it', 'seemed']
+
+['letter', 'was', 'overflowing', 'with', 'him', '.', "''", 'said', 'she', 'cried']
+
+['happiness', ';', 'but', 'well', ',', 'looking', 'out', 'as', 'to', 'me']
+
+['party', 'in', 'every', 'power', 'to', 'rosings', ',', 'you', 'do', 'justice']
+
+['means', 'of', 'you', 'what', 'is', 'always', 'occupies', 'you', 'deny', 'the']
+
+['acquaintance', 'with', 'a', 'most', 'wish', 'with', 'jane', ',', 'smilingly', ',']
+
+['woman', 'without', 'any', 'intention', ',', "''", 'replied', 'elizabeth', ',', 'as']
