@@ -1,90 +1,90 @@
 1b. FreqDist of Words
 she
-	Count: 1351 Freq: 0.011294
+	Count: 1351 Freq: 0.011471
 
 
 Mr
-	Count: 685 Freq: 0.005726
+	Count: 685 Freq: 0.005816
 
 
 herself
-	Count: 191 Freq: 0.001597
+	Count: 191 Freq: 0.001622
 
 
 sister
-	Count: 154 Freq: 0.001287
+	Count: 154 Freq: 0.001308
 
 
 lady
-	Count: 154 Freq: 0.001287
+	Count: 154 Freq: 0.001308
 
 
 manner
-	Count: 86 Freq: 0.000719
+	Count: 86 Freq: 0.000730
 
 
 cried
-	Count: 80 Freq: 0.000669
+	Count: 80 Freq: 0.000679
 
 
 feelings
-	Count: 72 Freq: 0.000602
+	Count: 72 Freq: 0.000611
 
 
 pride
-	Count: 47 Freq: 0.000393
+	Count: 47 Freq: 0.000399
 
 
 great
-	Count: 121 Freq: 0.001012
+	Count: 121 Freq: 0.001027
 
 
 family
-	Count: 121 Freq: 0.001012
+	Count: 121 Freq: 0.001027
 
 
 home
-	Count: 54 Freq: 0.000451
+	Count: 54 Freq: 0.000459
 
 
 character
-	Count: 54 Freq: 0.000451
+	Count: 54 Freq: 0.000459
 
 
 letter
-	Count: 79 Freq: 0.000660
+	Count: 79 Freq: 0.000671
 
 
 happiness
-	Count: 52 Freq: 0.000435
+	Count: 52 Freq: 0.000442
 
 
 party
-	Count: 50 Freq: 0.000418
+	Count: 50 Freq: 0.000425
 
 
 means
-	Count: 47 Freq: 0.000393
+	Count: 47 Freq: 0.000399
 
 
 acquaintance
-	Count: 45 Freq: 0.000376
+	Count: 45 Freq: 0.000382
 
 
 woman
-	Count: 44 Freq: 0.000368
+	Count: 44 Freq: 0.000374
 
 3. Bigram Probabilities
 and she
-	Count: 75 Freq: 0.000627
+	Count: 81 Freq: 0.000688
 
 
 and Mr
-	Count: 33 Freq: 0.000276
+	Count: 37 Freq: 0.000314
 
 
 and herself
-	Count: 10 Freq: 0.000084
+	Count: 10 Freq: 0.000085
 
 
 and sister
@@ -92,7 +92,7 @@ and sister
 
 
 and lady
-	Count: 8 Freq: 0.000067
+	Count: 9 Freq: 0.000076
 
 
 and manner
@@ -100,7 +100,7 @@ and manner
 
 
 and cried
-	Count: 0 Freq: 0.000000
+	Count: 1 Freq: 0.000008
 
 
 and feelings
@@ -108,7 +108,7 @@ and feelings
 
 
 and pride
-	Count: 4 Freq: 0.000033
+	Count: 4 Freq: 0.000034
 
 
 and great
@@ -132,7 +132,7 @@ and letter
 
 
 and happiness
-	Count: 4 Freq: 0.000033
+	Count: 4 Freq: 0.000034
 
 
 and party
@@ -152,11 +152,11 @@ and woman
 
 4. Conditional Probabilities
 and she
-	Count: 75 Freq: 0.025134
+	Count: 81 Freq: 0.027145
 
 
 and Mr
-	Count: 33 Freq: 0.011059
+	Count: 37 Freq: 0.012399
 
 
 and herself
@@ -168,7 +168,7 @@ and sister
 
 
 and lady
-	Count: 8 Freq: 0.002681
+	Count: 9 Freq: 0.003016
 
 
 and manner
@@ -176,7 +176,7 @@ and manner
 
 
 and cried
-	Count: 0 Freq: 0.000000
+	Count: 1 Freq: 0.000335
 
 
 and feelings
